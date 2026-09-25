@@ -1,0 +1,1 @@
+#TODO: escrever a logica das condições faço depois de terminar o main 
