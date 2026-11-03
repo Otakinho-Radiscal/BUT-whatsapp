@@ -1,0 +1,39 @@
+{
+    "config": {
+    "casa": "Casa Exemplo",
+    "palavra": "PROMOEXEMPLO",
+    "beneficio": "1 drink de boas-vindas",
+    "contato": "(00) 00000-0000",
+    "prefixo": "CE"
+  },
+  "atendimento": {
+    "menu": [
+      "Oi! Aqui é a {casa}. Quem salvar o nosso contato ganha {beneficio}.",
+      "Responda 2 para ver como salvar, 1 se você já salvou, ou ATENDENTE para falar com uma pessoa."
+    ],
+    "instrucoes": [
+      "Para salvar, crie um contato chamado \"{casa}\" com o número {contato}.",
+      "Quando terminar, responda 1."
+    ],
+    "comprovante": [
+      "Anotado! Registrei que você salvou o contato.",
+      "*{casa} · COMPROVANTE*\nCódigo: *{codigo}*\nEmitido em: {emitido_em}\nBenefício: {beneficio}\n_Declaração do cliente. Conferência na entrada._",
+      "Mostre este comprovante na entrada. A equipe confere o contato salvo no local."
+    ],
+    "ja_tem_comprovante": "Você já tem um comprovante: {codigo}. Basta mostrar na entrada.",
+    "comece_pela_palavra": "Para começar, envie {palavra}.",
+    "atendente": "Certo, uma pessoa da equipe vai continuar esta conversa. O bot fica em silêncio por aqui.",
+    "sair_ok": "Tudo certo, você não vai mais receber mensagens de promoção. Se mudar de ideia, envie {palavra}.",
+    "ja_descadastrado": "Você já está descadastrado. Para voltar, envie {palavra}.",
+    "nao_entendi_inicio": "Oi! Para entrar na promoção, envie {palavra}. Para falar com uma pessoa, envie ATENDENTE.",
+    "nao_entendi_menu": "Não entendi. Responda 1 (já salvei), 2 (como salvar) ou ATENDENTE.",
+    "nao_entendi_com_comprovante": "Seu comprovante é {codigo}. Para falar com uma pessoa, envie ATENDENTE."
+  },
+
+  "nts": {
+    "reservation.pending": "Olá, {nome}! Sua reserva para {event_name} está pendente.",
+    "reservation.confirmed": "Olá, {nome}! Sua reserva para {event_name} está confirmada.",
+    "reservation.cancelled": "Olá, {nome}! Sua reserva para {event_name} foi cancelada.",
+    "karaoke.called": "{nome}, chegou sua vez no karaokê! Música: {song} - {artist}."
+  }
+}
